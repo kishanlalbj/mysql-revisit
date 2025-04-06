@@ -1,0 +1,30 @@
+# Ignore database dumps and backups
+*.sql.gz
+*.sql.zip
+*.sql.bz2
+*.sql.tar
+*.sql.xz
+backup_*.sql
+dump_*.sql
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore logs
+*.log
+*.out
+
+# Ignore environment and credential files
+.env
+config/database.yml
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+.DS_Store
+Thumbs.db
